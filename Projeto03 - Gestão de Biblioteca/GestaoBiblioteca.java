@@ -47,7 +47,7 @@ public class GestaoBiblioteca {
 				for (Livro livro : acervo) {
 					if (livro.getTitulo().equalsIgnoreCase(titulo)) {
 						if (livro.isDisponivel()) {
-							livro.emprestarLivro();
+							
 
 							System.out.println("Livro emprestado com sucesso!");
 						} else {
@@ -75,7 +75,7 @@ public class GestaoBiblioteca {
 					if (livro.getTitulo().equalsIgnoreCase(titulo)) {
 
 						if (!livro.isDisponivel()) {
-							livro.devolverLivro();
+							
 
 							System.out.println("Livro devolvido com sucesso!");
 						} else {
